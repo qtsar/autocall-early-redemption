@@ -490,6 +490,7 @@ app.layout = html.Div([
                     {'label': 'Stochastic Volatility (Heston)', 'value': 'stochastic'},
                 ],
                 placeholder='Select a method',
+                value='constant',
                 id='input--pricing-method'
             ),
             html.Label("Stochastic Volatility is available only for one underlying"),
